@@ -19,18 +19,19 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 		font-size: 12px;
 		width:100%;
 		background-image: url("../images/beach.jpg");
+		background-size: cover;
 		background-attachment: fixed;
 		overflow: auto;
 	}
 	#header {
 		float: left;
 		color: #800000;
-		margin-left: 2%;
+		margin-left: 2px;
 		margin-top: 0;
-		width: 30%;
+		width: 21em;
 		height: auto;
-		display:block;
-		font-weight:bold;
+		display: block;
+		font-weight: bold;
 	}
 	a:link {color: #00008B;} /* unvisited link */
 	a:visited {color: #DC143C;} /* visited link */
@@ -38,8 +39,8 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	a:active {color: #9932CC;} /* selected link */
 	#links {
 		float: right;
-		margin: 0% 8%;
-		width: 70%;
+		margin: 1em 10em;
+		width: 850px;
 	}
 	#links p{
 		float: right;
@@ -56,16 +57,17 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 
 	}
 	#content {
-		float: left;
+		float: right;
 		text-align: center;
-		margin: 5% 25% 0% 25%;
+		margin: 30px 138px 0px 15px;
 		padding: 1%;
 		width: 50%;
 		background-color: white;
 		color: #800000;
-		border: 2px solid #800000;
-		display:block;
+		border: 1px solid #800000;
+		display: block;
 		opacity: 0.5;
+
 	}
 	#content p{
 
@@ -109,6 +111,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 		font-size: 12px;
 		width: 75em;
 		background-image: url("../images/beach.jpg");
+		background-size: cover;
 		background-attachment: fixed;
 		overflow: auto;
 	}
@@ -128,6 +131,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	a:active {color: #9932CC;} /* selected link */
 	#links {
 		float: right;
+		width: inherit;
 		margin: 1em 10em;
 	}
 	#links p{

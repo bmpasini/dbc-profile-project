@@ -26,7 +26,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	#header {
 		float: left;
 		color: #800000;
-		margin-left: 2px;
+		margin-left: 15px;
 		margin-top: 0;
 		width: 21em;
 		height: auto;
@@ -39,7 +39,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	a:active {color: #9932CC;} /* selected link */
 	#links {
 		float: right;
-		margin: 1em 10em;
+		margin: 1em 15em;
 		width: 850px;
 	}
 	#links p{
@@ -59,7 +59,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	#content {
 		float: right;
 		text-align: center;
-		margin: 30px 138px 0px 15px;
+		margin: 30px 197px 0px 15px;
 		padding: 1%;
 		width: 50%;
 		background-color: white;
@@ -74,7 +74,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	}
 	#sidebar {
 		float: left;
-		margin: 0 1px 2px 1px;
+		margin: 0 1px 2px 15px;
 		width: 120px;
 		height: 65px;
 		border: 1px solid #800000;
@@ -118,7 +118,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	#header {
 		float: left;
 		color: #800000;
-		margin-left: 2px;
+		margin-left: 15px;
 		margin-top: 0;
 		width: 21em;
 		height: auto;
@@ -165,7 +165,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	}
 	#sidebar {
 		float: left;
-		margin: 30px 1px 2px 1px;
+		margin: 30px 1px 2px 15px;
 		width: 120px;
 		height: 70px;
 		border: 1px solid #800000;

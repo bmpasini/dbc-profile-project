@@ -16,7 +16,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 {
 	body {
 		font-family: 'Josefin Sans', sans-serif;
-		font-size: 10px;
+		font-size: 12px;
 		width:100%;
 		background-image: url("../images/beach.jpg");
 		background-attachment: fixed;
@@ -48,9 +48,9 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 		margin: 0% 2%;
 		text-align: center;
 		border: 1px solid #800000;
-		font-size: 14px;
-		font-weight:bold;
-		display:block;
+		font-size: 12px;
+		font-weight: lighter;
+		display: block;
 		background-color: white;
 		opacity: 0.5;
 
@@ -72,9 +72,9 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	}
 	#sidebar {
 		float: left;
-		margin: 0% 1% 2% 1%;
-		width: 8%;
-		height: 15%;
+		margin: 0 1px 2px 1px;
+		width: 120px;
+		height: 65px;
 		border: 1px solid #800000;
 		display:block;
 		background-color: white;
@@ -117,7 +117,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 		color: #800000;
 		margin-left: 2px;
 		margin-top: 0;
-		width: 20em;
+		width: 21em;
 		height: auto;
 		display:block;
 		font-weight:bold;
@@ -132,14 +132,14 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	}
 	#links p{
 		float: right;
-		width: 8em;
-		padding: 1px;
-		margin: 0 1em;
+		width: 10%;
+		padding: 0.5%;
+		margin: 0% 2%;
 		text-align: center;
 		border: 1px solid #800000;
-		font-size: 14px;
-		font-weight:bold;
-		display:block;
+		font-size: 12px;
+		font-weight: bold;
+		display: block;
 		background-color: white;
 		opacity: 0.5;
 

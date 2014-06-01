@@ -62,6 +62,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 		margin: 30px 197px 0px 15px;
 		padding: 1%;
 		width: 50%;
+		min-width: 451px;
 		background-color: white;
 		color: #800000;
 		border: 1px solid #800000;

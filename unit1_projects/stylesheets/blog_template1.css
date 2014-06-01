@@ -16,7 +16,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 {
 	body {
 		font-family: 'Josefin Sans', sans-serif;
-		font-size: 12px;
+		font-size: 14px;
 		width:100%;
 		background-image: url("../images/beach.jpg");
 		background-size: cover;
@@ -116,7 +116,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 {
 	body {
 		font-family: 'Josefin Sans', sans-serif;
-		font-size: 12px;
+		font-size: 14px;
 		width: 75em;
 		background-image: url("../images/beach.jpg");
 		background-size: cover;

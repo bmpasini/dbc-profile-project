@@ -75,7 +75,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	#sidebar {
 		float: left;
 		margin: 30px 1px 2px 15px;
-		width: 120px;
+		width: 170px;
 		height: 70px;
 		border: 1px solid #800000;
 		display: block;
@@ -85,7 +85,9 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	#sidebar p{
 		float: left;
 		font-size: 11px;
-		margin: 0.5% 2.5% 2.5% 0.5%;
+		margin: 12px 2.5% 2.5% 0.5%;
+	    padding-left: 20px;
+
 	}
 	#sidebar ul{
 		font-size: 11px;
@@ -166,7 +168,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	#sidebar {
 		float: left;
 		margin: 30px 1px 2px 15px;
-		width: 120px;
+		width: 170px;
 		height: 70px;
 		border: 1px solid #800000;
 		display: block;

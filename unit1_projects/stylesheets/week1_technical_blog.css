@@ -89,8 +89,14 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	    padding-left: 20px;
 
 	}
-	#sidebar ul{
+	#sidebar ul
+	{
+		float: right;
 		font-size: 11px;
+	}
+	#sidebar li
+	{
+		float: left;
 	}
 	#footer {
 		text-align: center;

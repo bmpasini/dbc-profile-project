@@ -19,7 +19,7 @@ Talk about what came up for you and anything you want in addition to the questio
 	}
 	#header {
 		float: left;
-		color: #800000;
+		color: #C00000;
 		margin-left: 15px;
 		margin-top: 0;
 		width: 21em;
@@ -60,7 +60,7 @@ Talk about what came up for you and anything you want in addition to the questio
 		color: #800000;
 		border: 1px solid #800000;
 		display: block;
-		opacity: 0.5;
+		opacity: 0.7;
 
 	}
 	#content p{
@@ -159,7 +159,7 @@ Talk about what came up for you and anything you want in addition to the questio
 		color: #800000;
 		border: 1px solid #800000;
 		display:block;
-		opacity: 0.5;
+		opacity: 0.7;
 	}
 	#content p{
 

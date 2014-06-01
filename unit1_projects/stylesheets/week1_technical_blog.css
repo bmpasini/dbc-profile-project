@@ -91,7 +91,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	#sidebar ul
 	{
 		float: left;
-		padding-left: 20px;
+		padding-left: 35px;
 		font-size: 11px;
 	}
 	#sidebar li
@@ -188,7 +188,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	}
 	#sidebar ul {
 		float: left;
-		padding-left: 20px;
+		padding-left: 35px;
 		font-size: 11px;
 	}
 	#footer {

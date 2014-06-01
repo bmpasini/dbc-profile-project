@@ -74,14 +74,13 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	}
 	#sidebar {
 		float: left;
-		margin: 30px 1px 2px 15px;
+		margin: 0 1px 2px 15px;
 		width: 120px;
-		height: 70px;
+		height: 65px;
 		border: 1px solid #800000;
-		display: block;
+		display:block;
 		background-color: white;
 		opacity: 0.5;
-}
 	}
 	#sidebar p{
 		float: left;

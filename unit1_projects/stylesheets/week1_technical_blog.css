@@ -15,7 +15,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 @media screen and (min-width: 900px)
 {
 	body {
-		font-family: Calibri, Sans-Serif;
+		font-family: 'Josefin Sans', sans-serif;
 		font-size: 12px;
 		width:100%;
 		background-image: url("../images/beach.jpg");
@@ -38,7 +38,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	a:active {color: #9932CC;} /* selected link */
 	#links {
 		float: right;
-		margin: 0% 3%;
+		margin: 0% 8%;
 		width: 70%;
 	}
 	#links p{
@@ -105,7 +105,7 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 @media screen and (max-width: 900px)
 {
 	body {
-		font-family: Calibri, Sans-Serif;
+		font-family: 'Josefin Sans', sans-serif;
 		font-size: 12px;
 		width: 75em;
 		background-image: url("../images/beach.jpg");
@@ -129,7 +129,6 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	#links {
 		float: right;
 		margin: 1em 10em;
-		width: 10em;
 	}
 	#links p{
 		float: right;
@@ -146,14 +145,14 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 
 	}
 	#content {
-		float: left;
+		float: right;
 		text-align: center;
-		margin: 5% 25% 0% 25%;
+		margin: 5% 16.5% 0% 15%;
 		padding: 1%;
 		width: 50%;
 		background-color: white;
 		color: #800000;
-		border: 2px solid #800000;
+		border: 1px solid #800000;
 		display:block;
 		opacity: 0.5;
 	}
@@ -163,8 +162,8 @@ Write a blog post analyzing the 3 sites in terms of user experience and design.
 	#sidebar {
 		float: left;
 		margin: 0 1px 2px 1px;
-		width: 8px;
-		height: 15px;
+		width: 120px;
+		height: 65px;
 		border: 1px solid #800000;
 		display:block;
 		background-color: white;

@@ -64,15 +64,15 @@ Talk about what came up for you and anything you want in addition to the questio
 		z-index: 1;
 	}
 	#content p{
-		float: left;
+		text-align: left;
 	}
 	#box {
-		float: left;
+		position: absolute;
 		z-index: 2;
 		margin:5px;
 	}
 	#content li {
-		float: left;
+		text-align: left;
 	}
 	#sidebar {
 		float: left;
@@ -193,7 +193,7 @@ Talk about what came up for you and anything you want in addition to the questio
 		padding-left: 35px;
 		font-size: 11px;
 	}
-	#footer {
+	footer {
 		text-align: center;
 		font-size: 9px;
 		color: #20B2AA;

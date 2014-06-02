@@ -67,7 +67,9 @@ Talk about what came up for you and anything you want in addition to the questio
 		text-align: left;
 	}
 	#box {
-		position: absolute;
+		float: left;
+		width = 455px;
+		height = 340px
 		z-index: 2;
 		margin:5px;
 	}

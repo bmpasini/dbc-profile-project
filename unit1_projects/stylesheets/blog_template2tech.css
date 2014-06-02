@@ -61,14 +61,18 @@ Talk about what came up for you and anything you want in addition to the questio
 		border: 1px solid #800000;
 		display: block;
 		opacity: 0.7;
-
+		z-index: 1;
 	}
 	#content p{
-
+		float: left;
 	}
 	#box {
 		float: left;
-		z-index: 1000;
+		z-index: 2;
+		margin:5px;
+	}
+	#content li {
+		float: left;
 	}
 	#sidebar {
 		float: left;

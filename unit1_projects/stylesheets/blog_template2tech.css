@@ -68,6 +68,7 @@ Talk about what came up for you and anything you want in addition to the questio
 	}
 	#box {
 		float: left;
+		z-index: 1000;
 	}
 	#sidebar {
 		float: left;

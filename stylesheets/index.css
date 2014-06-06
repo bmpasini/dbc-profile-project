@@ -29,6 +29,7 @@ nav {
 	width: 90%;
 	margin: 0 5%;
 }
+/*main box*/
 nav ul {
 	height: 80px;
 	width: 90%;
@@ -49,6 +50,7 @@ nav ul {
 		clear: both;
 		display: block;
 	}
+/*inside boxes*/
 nav ul li {
 	float: left;
 }
@@ -66,6 +68,7 @@ nav ul li {
 		display: block; padding: 25px 40px;
 		color: #757575; text-decoration: none;
 	}
+/*hide drop down menu*/
 nav ul ul {
 	display: none;
 }

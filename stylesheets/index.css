@@ -87,6 +87,10 @@ nav
 	border: 0;
 	z-index: 2;
 }
+.c_links a
+{
+	font-size: 10px;
+}
 #link1
 {
 	float: left;

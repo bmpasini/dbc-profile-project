@@ -29,12 +29,6 @@ nav {
 	width: 90%;
 	margin: 0 5% 2.5% 5%;
 }
-nav ul ul {
-	display: none;
-}
-	nav ul li:hover > ul {
-		display: block;
-	}
 nav ul {
 	background: #efefef; 
 	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
@@ -50,6 +44,14 @@ nav ul {
 	nav ul:after {
 		content: ""; clear: both; display: block;
 	}
+
+nav ul ul {
+	display: none;
+}
+	nav ul li:hover > ul {
+		display: block;
+	}
+
 #workspace
 {
 	height: 69%;

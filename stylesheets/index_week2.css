@@ -12,7 +12,7 @@ html, body {
 	overflow: auto; /* If overflow is clipped, a scroll-bar should be added to see the rest of the content */
 }
 header {
-	height: 10%;
+	height: 15%;
 	width: 90%;
 	padding: 0;
 	border: 0;
@@ -24,7 +24,7 @@ header {
 	justify-content: center; /* align horizontal */
 	align-items: center; /* align vertical */
 }
-#workspace
+nav
 {
 	height: 69%;
 	width: 90%;
@@ -51,29 +51,7 @@ header {
 {
 
 }
-nav ul ul {
-	display: none;
-}
-	nav ul li:hover > ul {
-		display: block;
-	}
-nav ul {
-	background: #efefef; 
-	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
-	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
-	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
-	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
-	padding: 0 20px;
-	border-radius: 10px;  
-	list-style: none;
-	position: relative;
-	display: inline-table;
-}
-	nav ul:after {
-		content: ""; clear: both; display: block;
-	}
-
-#text
+#main
 {
 	float: left;
 	height: calc(100% - 2*0.5em - 2*1px);
@@ -87,11 +65,29 @@ nav ul {
 	font-weight: normal;
 	text-align: center;
 }
-#text article
+#main article
 {
 
 }
-/*#link1
+#c_right_sidebar
+{
+	float: left;
+	height: 100%;
+	width: calc(23%/0.9);
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.c_links
+{
+	height: calc(26%/0.69);
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	z-index: 2;
+}
+#link1
 {
 	float: left;
 	height: calc(7.5%/0.26 - 2*0.5em - 2*1px);
@@ -192,7 +188,37 @@ nav ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}*/
+}
+#buddha
+{
+	float: left;
+	height: calc(24%/.69);
+	width: 100%;
+	margin: calc(93.844/290.709*3%/0.24) 0 calc(93.844/290.709*4%/0.24) 0;
+	border: 0;
+	padding: 0;
+	opacity: 0.95;
+	z-index: 3;
+}
+.notes
+{
+	float: left;
+	height: calc(12%/.69 - 2*0.5em - 2*1px);
+	width: calc(100% - 2*0.5em - 2*1px);
+	margin: 0;
+	border: 1px solid grey;
+	padding: 0.5em;
+	z-index: 3;
+	background-color: gray;
+	opacity: 0.75;
+	color: black;
+	font-size: small;
+	font-weight: lighter;
+}
+.notes li
+{
+	
+}
 footer
 {
 	height: 10%;

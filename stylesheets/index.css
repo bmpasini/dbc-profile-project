@@ -32,6 +32,7 @@ nav {
 nav ul {
 	height: 100%;
 	width: 90%;
+	margin: 0;
 	background-color: #efefef; 
 	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
 	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 

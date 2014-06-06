@@ -16,7 +16,7 @@ header {
 	width: 90%;
 	padding: 0;
 	border: 0;
-	margin: 3% 5%;
+	margin: 2.5% 5%;
 	font-size: xx-large; /* percentage is in relation to the body font-size */
 	color: #00FF00;
 	font-weight:bold;
@@ -24,6 +24,32 @@ header {
 	justify-content: center; /* align horizontal */
 	align-items: center; /* align vertical */
 }
+nav {
+	height: 10%;
+	width: 90%;
+	margin: 0 5% 2.5% 5%;
+}
+nav ul ul {
+	display: none;
+}
+	nav ul li:hover > ul {
+		display: block;
+	}
+nav ul {
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
 #workspace
 {
 	height: 69%;
@@ -51,28 +77,6 @@ header {
 {
 
 }
-nav ul ul {
-	display: none;
-}
-	nav ul li:hover > ul {
-		display: block;
-	}
-nav ul {
-	background: #efefef; 
-	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
-	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
-	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
-	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
-	padding: 0 20px;
-	border-radius: 10px;  
-	list-style: none;
-	position: relative;
-	display: inline-table;
-}
-	nav ul:after {
-		content: ""; clear: both; display: block;
-	}
-
 #text
 {
 	float: left;

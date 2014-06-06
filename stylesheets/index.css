@@ -77,9 +77,11 @@ nav ul li:hover a
 {
 	color: #fff;
 }	
-nav ul li a {
-	display: block; padding: 25px 40px;
-	color: #757575; text-decoration: none;
+nav ul li a, nav ul li p {
+	display: block;
+	padding: 25px 40px;
+	color: #757575;
+	text-decoration: none;
 }
 /*hide drop down menu*/
 nav ul ul {

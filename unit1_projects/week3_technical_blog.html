@@ -1,0 +1,64 @@
+<!-- What is the difference between Margin, Border and Padding?
+What are the best practices associated with using classes vs. ids?
+What are the differences between relative, absolute, and fixed positioning?
+What does it mean to display inline vs inline blocks? -->
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="stylesheets/blog_template2tech.css"/>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+	</head>
+	<body>
+		<header>
+			<h1>Bruno Macedo Pasini</h1>
+			<h2>Technical Blog</h2>
+			<h3>Week 2</h3>
+		</header>
+		<div id="links">
+			<a href="week2_cultural.html"><p>Cultural</p></a>
+			<a href="week2_technical_blog.html"><p>Technical</p></a>
+			<a href="../index.html"><p>Home</p></a>
+		</div>
+		<div id="content">
+			<img id="box" src="images/boxdim.gif">
+			<h3>Margin vs. Padding vs. Border</h3>
+			<p>Margin is the space you can leave around your box. Border, as the name suggests is a line you can use to see were your box ends. Padding is the space you can leave inside the box between the border and your text. One important thing to notice is that the height and width are inside of the padding.</p>
+			<h3>Ids vs. Classes</h3>
+			<p>Ids should be used to define the properties of one single element of the page. Classes, in the other hand, should be used to define properties of elements that show up multiple times in your page. Also, it is important to bear in mind that your code can be reapplied in a different page.</p>
+			<h3>Relative Positioning vs. Absolute Positioning vs. Fixed Positioning</h3>
+			<p>The Relative Positining relates the elemnt to where it should be. The Absolute Positioning relates the element to its parent. The Fixed Positioning relates the element to the browser window itself (if the window scrolls the element will remain there).</p>
+			<h3>Inline vs. Inline blocks</h3>
+			<p>Inline Elements</p>
+			<ol>
+				<li>Respect left & right margins and padding, but <strong>not</strong> top & bottom;</li>
+				<li><strong>Cannot</strong> have a width and height set;</li>
+				<li>Allow other elements to sit to their left and right;</li>
+				<li>Has no line break before or after it.</li>
+			</ol>
+			<p>Block Elements</p>
+			<ol>
+				<li>Respect all of those;</li>
+				<li>Force a line break after the block element.</li>
+			</ol>
+			<p>Inline-block elements:</p>
+			<ol>
+				<li>Allow other elements to sit to their left and right;</li>
+				<li>Respect top & bottom margins and padding</li>
+				<li>Respect height and width;</li>
+				<li>Force a line break after the block element.</li>
+			</ol>
+		</div>
+		<div id ="sidebar">
+			<p>External References: </p>
+			<ul>
+				<li><a href="http://stackoverflow.com/questions/2189452/when-to-use-margin-vs-padding-in-css">Margin/Padding/Border</a></li>
+				<li><a href="http://css-tricks.com/the-difference-between-id-and-class/">Ids vs. Classes</a></li>
+				<li><a href="http://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/">Positioning</a></li>
+				<li><a href="http://stackoverflow.com/questions/9189810/css-display-inline-vs-inline-block">Inline/Inline-Block</a></li>
+			</ul>
+		</div>
+		<footer>
+			<p>&copy; Bruno Macedo Pasini - 2014</p>
+		</footer>
+	</body>
+</html>

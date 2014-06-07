@@ -79,8 +79,8 @@ nav ul ul {
 }
 	nav ul ul li {
 		float: none; 
-		border-top: 1px dotted black;
-		border-bottom: 1px dotted black;
+		border: 1px dotted black;
+		border-radius: 10px;
 		position: relative;
 	}
 		nav ul ul li a {

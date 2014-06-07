@@ -40,7 +40,7 @@ nav ul ul {
 
 nav ul {
 	margin: 0;
-	background: black; 
+	background: transparent; 
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
 	padding: 0 20px;
 	border: 1px dotted #00FF00;
@@ -67,8 +67,10 @@ nav ul li {
 		}
 	
 	nav ul li a {
-		display: block; padding: 25px 40px;
-		color: #757575; text-decoration: none;
+		display: block;
+		padding: 25px 40px;
+		color: #00FF00;
+		text-decoration: none;
 	}
 
 nav ul ul {

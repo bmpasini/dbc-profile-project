@@ -58,12 +58,13 @@ nav ul li {
 }
 	nav ul li:hover {
 		background: #00FF00;
-		color: black;
 	}
 		nav ul li:hover a {
-			color: black;
+
 		}
-	
+	.main_bar_text: hover {
+		color: #00FF00;
+	}
 	nav ul li a {
 		display: block;
 		padding: 25px 40px;

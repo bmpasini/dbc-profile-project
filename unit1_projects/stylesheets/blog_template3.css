@@ -71,7 +71,7 @@ Talk about what came up for you and anything you want in addition to the questio
 		opacity: 0.7;
 	}
 	#content p{
-
+		float: left;
 	}
 	#sidebar {
 		float: left;

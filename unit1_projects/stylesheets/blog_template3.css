@@ -60,9 +60,8 @@ Talk about what came up for you and anything you want in addition to the questio
 	#content {
 		float: right;
 		text-align: center;
-		margin: 30px 197px 0px 15px;
+		margin: 30px 197px 60px 15px;
 		padding: 10px;
-		padding-bottom: 60px;
 		width: 50%;
 		min-width: 451px;
 		background-color: white;
@@ -174,9 +173,8 @@ Talk about what came up for you and anything you want in addition to the questio
 	#content {
 		float: right;
 		text-align: center;
-		margin: 30px 138px 0px 15px;
+		margin: 30px 138px 60px 15px;
 		padding: 10px;
-		padding-bottom: 60px;
 		width: 50%;
 		background-color: white;
 		color: #800000;

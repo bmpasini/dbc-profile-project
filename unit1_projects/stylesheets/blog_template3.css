@@ -99,6 +99,7 @@ Talk about what came up for you and anything you want in addition to the questio
 		position: absolute;
 		bottom: 5%;
 		left: 48%;
+		clear: both;
 	}
 	#image {
 		position: absolute;

@@ -60,7 +60,7 @@ nav ul li {
 		background: #00FF00;
 	}
 		nav ul li:hover a {
-			color: #00FF00;
+			color: black;
 		}
 	
 	nav ul li a {

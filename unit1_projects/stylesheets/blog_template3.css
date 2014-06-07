@@ -17,7 +17,7 @@ Talk about what came up for you and anything you want in addition to the questio
 		background-attachment: fixed;
 		overflow: auto;
 	}
-	#header {
+	header {
 		float: left;
 		color: #C00000;
 		margin-left: 15px;
@@ -31,12 +31,12 @@ Talk about what came up for you and anything you want in addition to the questio
 	a:visited {color: #DC143C;} /* visited link */
 	a:hover {color: #00FF7F;} /* mouse over link */
 	a:active {color: #9932CC;} /* selected link */
-	#links {
+	nav {
 		float: right;
 		margin: 1em 15em;
 		width: 850px;
 	}
-	#links p{
+	nav p{
 		float: right;
 		width: 10%;
 		padding: 0.5%;
@@ -92,7 +92,7 @@ Talk about what came up for you and anything you want in addition to the questio
 	{
 
 	}
-	#footer {
+	footer {
 		text-align: center;
 		font-size: 9px;
 		color: #20B2AA;

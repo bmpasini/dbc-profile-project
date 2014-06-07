@@ -60,7 +60,7 @@ Talk about what came up for you and anything you want in addition to the questio
 	#content {
 		float: right;
 		text-align: center;
-		margin: 30px 197px 60px 15px;
+		margin: 30px 197px 0 15px;
 		padding: 10px;
 		width: 50%;
 		min-width: 451px;
@@ -101,9 +101,6 @@ Talk about what came up for you and anything you want in addition to the questio
 	}
 	footer
 	{
-		position: absolute;
-		bottom: 0;
-		left: 0;
 		height: 60px;
 		width: 100%;
 		text-align: center;
@@ -173,7 +170,7 @@ Talk about what came up for you and anything you want in addition to the questio
 	#content {
 		float: right;
 		text-align: center;
-		margin: 30px 138px 60px 15px;
+		margin: 30px 138px 0 15px;
 		padding: 10px;
 		width: 50%;
 		background-color: white;
@@ -207,9 +204,6 @@ Talk about what came up for you and anything you want in addition to the questio
 		font-size: 11px;
 	}
 	footer {
-		position: absolute;
-		bottom: 0;
-		left: 0;
 		height: 60px;
 		width: 100%;
 		text-align: center;

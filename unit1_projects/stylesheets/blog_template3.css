@@ -113,6 +113,9 @@ Talk about what came up for you and anything you want in addition to the questio
 /*		position: absolute;
 		left: 48%*/;
 		clear: both;
+		display: flex; /* Displays an element as an block-level flex container. New in CSS3	*/
+		justify-content: center; /* align horizontal */
+		align-items: center; /* align vertical */
 	}
 	#image {
 		position: absolute;

@@ -70,7 +70,7 @@ Talk about what came up for you and anything you want in addition to the questio
 		display: block;
 		opacity: 0.7;
 	}
-	#content p, #content ul {
+	#content p, #content ul, #content ol {
 		text-align: left;
 	}
 	#sidebar {

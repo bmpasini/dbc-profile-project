@@ -25,6 +25,7 @@ Talk about what came up for you and anything you want in addition to the questio
 		position:relative;
 	}
 	header {
+		position: fixed;
 		float: left;
 		color: #C00000;
 		margin-left: 15px;
@@ -41,7 +42,7 @@ Talk about what came up for you and anything you want in addition to the questio
 	a:active {color: #9932CC;} /* selected link */
 	nav {
 		float: right;
-		margin: 1em 15em;
+		margin: 11em 15em 1em 15em;
 		width: 850px;
 	}
 	nav p{
@@ -74,8 +75,9 @@ Talk about what came up for you and anything you want in addition to the questio
 		text-align: left;
 	}
 	#sidebar {
+		position: fixed;
 		float: left;
-		margin: 30px 1px 2px 15px;
+		margin: 200px 1px 2px 15px;
 		width: 170px;
 		height: 95px;
 		border: 1px solid #800000;
@@ -136,6 +138,7 @@ Talk about what came up for you and anything you want in addition to the questio
 		position:relative;
 	}
 	header {
+		position: fixed;
 		float: left;
 		color: #800000;
 		margin-left: 15px;
@@ -152,7 +155,7 @@ Talk about what came up for you and anything you want in addition to the questio
 	nav {
 		float: right;
 		width: inherit;
-		margin: 1em 10em;
+		margin: 11em 10em 1em 10em;
 	}
 	nav p{
 		float: right;
@@ -170,7 +173,7 @@ Talk about what came up for you and anything you want in addition to the questio
 	#content {
 		float: right;
 		text-align: center;
-		margin: 30px 138px 0 15px;
+		margin: 200px 138px 0 15px;
 		padding: 10px;
 		width: 50%;
 		background-color: white;
@@ -183,6 +186,7 @@ Talk about what came up for you and anything you want in addition to the questio
 
 	}
 	#sidebar {
+		position: fixed;
 		float: left;
 		margin: 30px 1px 2px 15px;
 		width: 170px;

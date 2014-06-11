@@ -22,33 +22,60 @@ What does it mean to display inline vs inline blocks? -->
 				<a href="../index.html"><p>Home</p></a>
 			</nav>
 			<div id="content">
-				<h3>What are the great things about JavaScript? Why is it so popular?</h3>
+				<h3>Enumerable elements in Ruby</h3>
 				<ol>
-					<p>JavaScript is popular among Web Developers mainly due to 4 great features:</p>
-					<li>Browser support:</li>
-					<p>You don't have to install any plugin to access its content, as flash would for instance. All browsers have adopted JavaScript as a scripting language and they provide integrated support for it.</p>
-					<li>Can be used on client side as well as on server side:</li>
-					<p>This characteristic by itself explain why there are so many JavaScript developers.</p>
-					<li>Functional programming language:</li>
-					<p>In javascript, function could be assigned to variables just like any other data types. Not only that, but a function can accept another function as a parameter and can also return a function. You can have functions with no name as well. Clearly, this gives you the ability to code in functional programming style.</p>
+					<p>The Enumerable mixin type of element provides a collection of classes with several traversal and searching methods, and with the ability to sort. This type of class must provide a method .each, which yields successive members of the collection. If Enumerable#max, #min, or #sort is used, the objects in the collection must also implement a meaningful <=> operator, as these methods rely on an ordering between members of the collection.</p>
+					<p>I'm going to briefly explain 3 methods that are pretty useful when it comes to Enumerable elements.</p>
+					<li>Enumerable#map</li>
+					<p>Here's its structure:</p>
+					<strong>.map { |obj| block } → array</strong>
+					<p>Returns a new array with the results of running block once for every element in enum.</p>
+					<p>Example:  (1..4).map { |i| i*i }      #=> [1, 4, 9, 16]</p>
+					<li>Enumerable#group_by</li>
+					<p>Here's its structure:</p>
+					<strong>.group_by { |obj| block } → a_hash</strong>
+					<p>Groups the collection by result of the block. Returns a hash where the keys are the evaluated result from the block and the values are arrays of elements in the collection that correspond to the key.</p>
+					<p>Example: (1..6).group_by { |i| i%3 }   #=> {0=>[3, 6], 1=>[1, 4], 2=>[2, 5]}</p>
+					<li>Enumerable#cycle</li>
+					<p>Here's its structure:</p>
+					<strong>.cycle(n=nil) { |obj| block } → nil</strong>
+					<p>Calls block for each element of enum repeatedly n times or forever if none or nil is given. If a non-positive number is given or the collection is empty, does nothing. Returns nil if the loop has finished without getting interrupted. #cycle saves elements in an internal array so changes to enum after the first pass have no effect.</p>
+					<p>Example:</p>
+					<p>a = ["a", "b", "c"]</p>
+					<p>a.cycle { |x| puts x }  # print, a, b, c, a, b, c,.. forever.</p>
+					<p>a.cycle(2) { |x| puts x }  # print, a, b, c, a, b, c.</p>
 					<li>Support for objects:</li>
 					<p>Javascript is an object oriented language. However, the way javascript handles objects and inheritance is bit different from conventional object oriented programming languages like Java. Due to this, javascript supports most of the object oriented concepts while being simple to learn and use.</p>
+					<p></p>
+					<p></p>
+					<p></p>
 				</ol>
-				<h3>What are it's limitations?</h3>
+				<h3>Looping in Ruby</h3>
+				<p>Loops are used to execute the same block of code a specified number of times. Ruby has a lot of different ways to iterate over things and I'm going to describe a few of them.</p>
 				<ul>
-					<li>JavaScript cannot write to files on the server without the help of a server side script.</li>
-					<li>JavaScript cannot access databases unless you use Ajax and have a server side script perform the database accesses for you.</li>
-					<li>JavaScript cannot read from or write to files in the client.</li>
-					<li>JavaScript cannot close a window if it didn't open it.</li>
-					<li>JavaScript cannot access web pages hosted on another domain.</li>
-					<li>JavaScript cannot protect your page source or images.</li>
+					<li>While</li>
+					<p>Executes code while conditional is true. A while loop's conditional is separated from code by the reserved word do, a newline, backslash \, or a semicolon ;.</p>
+					<p>Syntax:</p>
+					<p><span style="color:blue">while</span> <i>conditional</i> [<span style="color:blue">do</span>]<br>	<i>code</i><br><span style="color:blue">end</span></p>
+					<li>For</li>
+					<p>Executes code once for each element in expression.</p>
+					<p>Syntax:</p>
+					<p><span style="color:blue">for</span> variable [, variable ...] <span style="color:blue">in</span> expression [<span style="color:blue">do</span>]<br>   code<br><span style="color:blue">end</span></p>
+					<li>Until</li>
+					<p>Executes <i>code</i> while <i>conditional</i> is false. An <i>until</i> statement's <i>conditional</i> is separated from code by the reserved word <i>do</i>, a newline, or a semicolon.</p>
+					<p>Syntax:</p>
+					<p><span style="color:blue">until</span> <i>conditional</i> [<span style="color:blue">do</span>]<br>   <i>code</i><br><span style="color:blue">end</span></p>
+					<li>Each</li>
+					<p>An <i>each</i> loop is almost like a <i>for</i> loop, except that a <i>for</i> loop doesn't create a new scope for local variables. A <i>for</i> loop's expression is separated from code by the reserved word <i>do</i>, a newline, or a semicolon.</p>
+					<p>Example:</p>
+					<p>(<span style="color:#066">0</span>..<span style="color:#066">5</span>).each <span style="color:blue">do</span> |i|<br>   puts <span style="color:#080">"Value of local variable is #{i}"</span><br><span style="color:blue">end</span></p>
 				</ul>
 			</div>
 			<div id ="sidebar">
 				<p>External References:</p>
 				<ul>
-					<li><a href="http://www.webdesign.org/web-programming/javascript/4-powerful-features-of-javascript-programming-language.17008.html">JavaScript Upsides</a></li>
-					<li><a href="http://javascript.about.com/od/reference/a/cannot.htm">JavaScript Downsides</a></li>
+					<li><a href="http://ruby-doc.org/core-2.1.2/Enumerable.html#method-i-cycle">Enumerable</a></li>
+					<li><a href="http://www.tutorialspoint.com/ruby/ruby_loops.htm">Ruby Loops</a></li>
 				</ul>
 			</div>
 			<footer>

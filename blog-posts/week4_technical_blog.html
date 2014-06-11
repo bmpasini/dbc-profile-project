@@ -28,17 +28,17 @@ What does it mean to display inline vs inline blocks? -->
 					<p>I'm going to briefly explain 3 methods that are pretty useful when it comes to Enumerable elements.</p>
 					<li>Enumerable#map</li>
 					<p>Here's its structure:</p>
-					<strong>.map { |obj| block } → array</strong>
+					<strong>.map { | obj | block } → array</strong>
 					<p>Returns a new array with the results of running block once for every element in enum.</p>
-					<p>Example:  (1..4).map { |i| i*i }      #=> [1, 4, 9, 16]</p>
+					<p>Example:  (1..4).map { | i | i*i }      #=> [1, 4, 9, 16]</p>
 					<li>Enumerable#group_by</li>
 					<p>Here's its structure:</p>
-					<strong>.group_by { |obj| block } → a_hash</strong>
+					<strong>.group_by { | obj | block } → a_hash</strong>
 					<p>Groups the collection by result of the block. Returns a hash where the keys are the evaluated result from the block and the values are arrays of elements in the collection that correspond to the key.</p>
-					<p>Example: (1..6).group_by { |i| i%3 }   #=> {0=>[3, 6], 1=>[1, 4], 2=>[2, 5]}</p>
+					<p>Example: (1..6).group_by { | i | i%3 }   #=> {0=>[3, 6], 1=>[1, 4], 2=>[2, 5]}</p>
 					<li>Enumerable#cycle</li>
 					<p>Here's its structure:</p>
-					<strong>.cycle(n=nil) { |obj| block } → nil</strong>
+					<strong>.cycle(n=nil) { | obj | block } → nil</strong>
 					<p>Calls block for each element of enum repeatedly n times or forever if none or nil is given. If a non-positive number is given or the collection is empty, does nothing. Returns nil if the loop has finished without getting interrupted. #cycle saves elements in an internal array so changes to enum after the first pass have no effect.</p>
 					<p>Example:</p>
 					<p>a = ["a", "b", "c"]</p>
@@ -68,7 +68,7 @@ What does it mean to display inline vs inline blocks? -->
 					<li>Each</li>
 					<p>An <i>each</i> loop is almost like a <i>for</i> loop, except that a <i>for</i> loop doesn't create a new scope for local variables. A <i>for</i> loop's expression is separated from code by the reserved word <i>do</i>, a newline, or a semicolon.</p>
 					<p>Example:</p>
-					<p>(<span style="color:#066">0</span>..<span style="color:#066">5</span>).each <span style="color:blue">do</span> |i|<br>   puts <span style="color:#080">"Value of local variable is #{i}"</span><br><span style="color:blue">end</span></p>
+					<p>(<span style="color:#066">0</span>..<span style="color:#066">5</span>).each <span style="color:blue">do</span> | i |<br>  \ \ \ puts <span style="color:#080">"Value of local variable is #{i}"</span><br><span style="color:blue">end</span></p>
 				</ul>
 			</div>
 			<div id ="sidebar">

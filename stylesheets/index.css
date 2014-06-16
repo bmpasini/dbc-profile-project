@@ -151,6 +151,9 @@ nav ul ul {
 #text h3 {
 	text-align: left;
 }
+#text ul {
+	padding-left: 10px;
+}
 #text ul li {
 	text-align: left;
 }

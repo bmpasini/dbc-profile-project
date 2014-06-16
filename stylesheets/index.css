@@ -52,7 +52,6 @@ nav ul {
 	nav ul:after {
 		content: ""; clear: both; display: block;
 	}
-
 nav ul li {
 	float: left;
 }
@@ -60,7 +59,7 @@ nav ul li {
 		background: #00FF00;
 	}
 		nav ul li:hover a {
-			
+
 		}
 	.main_bar_text:hover {
 		color: black;
@@ -74,7 +73,6 @@ nav ul li {
 		color: #00FF00;
 		text-decoration: none;
 	}
-
 nav ul ul {
 	background: black;
 	border-radius: 0px;
@@ -119,9 +117,9 @@ nav ul ul {
 	font-weight: lighter;
 	text-align: center;
 }
-#left_sidebar li
+#left_sidebar ul li
 {
-
+	text-align: left;
 }
 #text
 {
@@ -141,108 +139,6 @@ nav ul ul {
 {
 
 }
-/*#link1
-{
-	float: left;
-	height: calc(7.5%/0.26 - 2*0.5em - 2*1px);
-	width: calc(10%/.23 - 2*0.5em - 2*1px);
-	margin: 0 calc(3%/.23) 0 0;
-	padding: 0.5em;
-	border: 1px dotted #00FF00;
-	border-radius: 5px;
-	z-index: 3;
-	font-size: small;
-	color: #00FF00;
-	font-weight: bolder;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-#link2
-{
-	float: left;
-	height: calc(7.5%/0.26 - 2*0.5em - 2*1px);
-	width: calc(10%/.23 - 2*0.5em - 2*1px);
-	margin: 0;
-	padding: 0.5em;
-	border: 1px dotted #00FF00;
-	border-radius: 5px;
-	z-index: 3;
-	font-size: small;
-	color: #00FF00;
-	font-weight: bolder;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-#link3
-{
-	float: left;
-	height: calc(7.5%/0.26 - 2*0.5em - 2*1px);
-	width: calc(10%/.23 - 2*0.5em - 2*1px);
-	margin: calc(176.531/290.703*1.75%/.26) calc(3%/.23) calc(176.531/290.703*1.75%/.26) 0;
-	padding: 0.5em;
-	border: 1px dotted #00FF00;
-	border-radius: 5px;
-	z-index: 3;
-	font-size: small;
-	color: #00FF00;
-	font-weight: bolder;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-#link4
-{
-	float: left;
-	height: calc(7.5%/0.26 - 2*0.5em - 2*1px);
-	width: calc(10%/.23 - 2*0.5em - 2*1px);
-	margin: calc(176.531/290.703*1.75%/.26) 0;
-	padding: 0.5em;
-	border: 1px dotted #00FF00;
-	border-radius: 5px;
-	z-index: 3;
-	font-size: small;
-	color: #00FF00;
-	font-weight: bolder;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-#link5
-{
-	float: left;
-	height: calc(7.5%/0.26 - 2*0.5em - 2*1px);
-	width: calc(10%/0.23 - 2*0.5em - 2*1px);
-	margin: 0 calc(3%/0.23) 0 0;
-	padding: 0.5em;
-	border: 1px dotted #00FF00;
-	border-radius: 5px;
-	z-index: 3;
-	font-size: small;
-	color: #00FF00;
-	font-weight: bolder;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-#link6
-{
-	float: left;
-	height: calc(7.5%/0.26 - 2*0.5em - 2*1px);
-	width: calc(10%/.23 - 2*0.5em - 2*1px);
-	margin: 0;
-	padding: 0.5em;
-	border: 1px dotted #00FF00;
-	border-radius: 5px;
-	z-index: 3;
-	font-size: small;
-	color: #00FF00;
-	font-weight: bolder;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}*/
 footer
 {
 	height: 10%;

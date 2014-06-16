@@ -148,8 +148,10 @@ nav ul ul {
 #text h1 {
 	text-align: center;
 }
-#text ul li h2
-{
+#text h2 {
+	text-align: left;
+}
+#text ul li {
 	text-align: left;
 }
 footer

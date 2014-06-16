@@ -53,10 +53,10 @@ nav ul {
 		content: ""; clear: both; display: block;
 	}
 
-.main_bar_text {
+nav ul li {
 	float: left;
 }
-	.main_bar_text:hover {
+	nav ul li:hover {
 		background: #00FF00;
 	}
 		nav ul li:hover a {

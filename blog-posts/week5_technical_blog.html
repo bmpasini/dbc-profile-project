@@ -5,7 +5,7 @@ What does it mean to display inline vs inline blocks? -->
 
 <html>
 	<head>
-		<title>Technical Week 4</title>
+		<title>Technical Week 5</title>
 		<link rel="stylesheet" type="text/css" href="stylesheets/blog_template4.css"/>
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 	</head>
@@ -14,48 +14,40 @@ What does it mean to display inline vs inline blocks? -->
 			<header>
 				<h1>Bruno Macedo Pasini</h1>
 				<h2>Technical Blog</h2>
-				<h3>Week 4</h3>
+				<h3>Week 5</h3>
 			</header>
 			<nav>
-				<a href="week4_cultural.html"><p>Cultural</p></a>
-				<a href="week4_technical_blog.html"><p>Technical</p></a>
+				<a href="week5_cultural.html"><p>Cultural</p></a>
+				<a href="week5_technical_blog.html"><p>Technical</p></a>
 				<a href="../index.html"><p>Home</p></a>
 			</nav>
 			<div id="content">
 			<img id="box" src="images/boxdim.gif">
 			<h1>Classes in Ruby</h1>
-			<h2>When</h2>
-			<p>Margin is the space you can leave around your box. Border, as the name suggests is a line you can use to see were your box ends. Padding is the space you can leave inside the box between the border and your text. One important thing to notice is that the height and width are inside of the padding.</p>
-			<h3>Ids vs. Classes</h3>
-			<p>Ids should be used to define the properties of one single element of the page. Classes, in the other hand, should be used to define properties of elements that show up multiple times in your page. Also, it is important to bear in mind that your code can be reapplied in a different page.</p>
-			<h3>Relative Positioning vs. Absolute Positioning vs. Fixed Positioning</h3>
-			<p>The Relative Positining relates the elemnt to where it should be. The Absolute Positioning relates the element to its parent. The Fixed Positioning relates the element to the browser window itself (if the window scrolls the element will remain there).</p>
-			<h3>Inline vs. Inline blocks</h3>
-			<p>Inline Elements</p>
+			<h2>Definition</h2>
+			<p>In object-oriented programming, a class is an extensible template for creating objects, providing initial values for state (member variables) and implementations of behavior (member functions, methods).</p>
+			<h2>Why using classes instead of just grouping whatever you want in different functions?</h2>
+			<p>I use classes primarily for the following reasons:</p>
+			<ul>
+				<li>They provide a logical connection between data and functions operating on that data.</li>
+				<li>You can make class-hierarchies which can save coding and are very extendable by using virtual functions.</li>
+				<li>You can restrict access to data, removing bug-opportunities that direct access could give.</li>
+			</ul>
+			<h3>Variables in a Ruby Class</h3>
+			<p>Ruby provides four types of variables:</p>
 			<ol>
-				<li>Respect left & right margins and padding, but <strong>not</strong> top & bottom;</li>
-				<li><strong>Cannot</strong> have a width and height set;</li>
-				<li>Allow other elements to sit to their left and right;</li>
-				<li>Has no line break before or after it.</li>
-			</ol>
-			<p>Block Elements</p>
-			<ol>
-				<li>Respect all of those;</li>
-				<li>Force a line break after the block element.</li>
-			</ol>
-			<p>Inline-block elements:</p>
-			<ol>
-				<li>Allow other elements to sit to their left and right;</li>
-				<li>Respect top & bottom margins and padding</li>
-				<li>Respect height and width;</li>
-				<li>Force a line break after the block element.</li>
+				<li><strong>Local Variables:</strong> Local variables are the variables that are defined in a method. Local variables are not available outside the method. Local variables begin with a lowercase letter or _.</li>
+				<li><strong>Instance Variables:</strong> Instance variables are available across methods for any particular instance or object. That means that instance variables change from object to object. Instance variables are preceded by the at sign (@) followed by the variable name.</li>
+				<li><strong>Class Variables:</strong> Class variables are available across different objects. A class variable belongs to the class and is a characteristic of a class. They are preceded by the sign @@ and are followed by the variable name.</li>
+				<li><strong>Global Variables:</strong> Class variables are not available across classes. If you want to have a single variable, which is available across classes, you need to define a global variable. The global variables are always preceded by the dollar sign ($).</li>
 			</ol>
 		</div>
 			<div id ="sidebar">
 				<p>External References:</p>
 				<ul>
-					<li><a href="http://ruby-doc.org/core-2.1.2/Enumerable.html#method-i-cycle">Enumerable</a></li>
-					<li><a href="http://www.tutorialspoint.com/ruby/ruby_loops.htm">Ruby Loops</a></li>
+					<li><a href="http://en.wikipedia.org/wiki/Class_(computer_programming)">Classes</a></li>
+					<li><a href="http://www.tutorialspoint.com/ruby/ruby_classes.htm">Ruby Classes</a></li>
+					<li><a href="http://www.railstips.org/blog/archives/2009/05/11/class-and-instance-methods-in-ruby/">Class vs. Instance Methods</a></li>
 				</ul>
 			</div>
 			<footer>

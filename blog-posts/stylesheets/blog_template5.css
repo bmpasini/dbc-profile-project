@@ -74,6 +74,9 @@ Talk about what came up for you and anything you want in addition to the questio
 	#content p, #content ul, #content ol #content h2 {
 		text-align: left;
 	}
+	#content h1 {
+		margin: 0 0 0.67em 0;
+	}
 	#sidebar {
 		position: fixed;
 		float: left;

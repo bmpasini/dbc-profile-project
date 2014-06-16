@@ -117,10 +117,14 @@ nav ul ul {
 	font-weight: lighter;
 	text-align: center;
 }
-#left_sidebar ul li
+#left_sidebar ul
 {
 	text-align: left;
 	padding-left: 25px;
+}
+#left_sidebar ul li
+{
+	text-align: left;
 }
 #left_sidebar h6
 {

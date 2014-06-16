@@ -78,8 +78,8 @@ Talk about what came up for you and anything you want in addition to the questio
 		position: fixed;
 		float: left;
 		margin: 200px 1px 2px 15px;
-		width: 170px;
-		height: 95px;
+		width: 190px;
+		height: 100px;
 		border: 1px solid #800000;
 		display: block;
 		background-color: white;
@@ -182,15 +182,15 @@ Talk about what came up for you and anything you want in addition to the questio
 		display: block;
 		opacity: 0.7;
 	}
-	#content p{
-
+	#content p, #content ul, #content ol #content h2 {
+		text-align: left;
 	}
 	#sidebar {
 		position: fixed;
 		float: left;
 		margin: 30px 1px 2px 15px;
-		width: 170px;
-		height: 95px;
+		width: 190px;
+		height: 100px;
 		border: 1px solid #800000;
 		display: block;
 		background-color: white;

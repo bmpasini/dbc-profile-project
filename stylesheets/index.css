@@ -134,6 +134,7 @@ nav ul ul {
 #text
 {
 	float: left;
+	font-size: 20px;
 	height: calc(100% - 2*0.5em - 2*1px);
 	width: calc(60%/0.9 - 2*0.5em - 2*1px);
 	margin: 0 calc(5%/0.9);
@@ -152,7 +153,7 @@ nav ul ul {
 	text-align: left;
 }
 #text ul {
-	padding-left: 10px;
+	padding-left: 20px;
 }
 #text ul li {
 	text-align: left;

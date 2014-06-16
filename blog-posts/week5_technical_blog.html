@@ -5,24 +5,26 @@ What does it mean to display inline vs inline blocks? -->
 
 <html>
 	<head>
-		<title>Technical Week 5</title>
-		<link rel="stylesheet" type="text/css" href="stylesheets/blog_template5.css"/>
+		<title>Technical Week 4</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/blog_template4.css"/>
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 	</head>
 	<body>
-		<header>
-			<h1>Bruno Macedo Pasini</h1>
-			<h2>Technical Blog</h2>
-			<h3>Week 5</h3>
-		</header>
-		<div id="links">
-			<a href="week5_cultural.html"><p>Cultural</p></a>
-			<a href="week5_technical_blog.html"><p>Technical</p></a>
-			<a href="../index.html"><p>Home</p></a>
-		</div>
-		<div id="content">
+		<div id"wrapper">
+			<header>
+				<h1>Bruno Macedo Pasini</h1>
+				<h2>Technical Blog</h2>
+				<h3>Week 4</h3>
+			</header>
+			<nav>
+				<a href="week4_cultural.html"><p>Cultural</p></a>
+				<a href="week4_technical_blog.html"><p>Technical</p></a>
+				<a href="../index.html"><p>Home</p></a>
+			</nav>
+			<div id="content">
 			<img id="box" src="images/boxdim.gif">
-			<h3>Margin vs. Padding vs. Border</h3>
+			<h1>Classes in Ruby</h1>
+			<h2>When</h2>
 			<p>Margin is the space you can leave around your box. Border, as the name suggests is a line you can use to see were your box ends. Padding is the space you can leave inside the box between the border and your text. One important thing to notice is that the height and width are inside of the padding.</p>
 			<h3>Ids vs. Classes</h3>
 			<p>Ids should be used to define the properties of one single element of the page. Classes, in the other hand, should be used to define properties of elements that show up multiple times in your page. Also, it is important to bear in mind that your code can be reapplied in a different page.</p>
@@ -49,17 +51,16 @@ What does it mean to display inline vs inline blocks? -->
 				<li>Force a line break after the block element.</li>
 			</ol>
 		</div>
-		<div id ="sidebar">
-			<p>External References: </p>
-			<ul>
-				<li><a href="http://stackoverflow.com/questions/2189452/when-to-use-margin-vs-padding-in-css">Margin/Padding/Border</a></li>
-				<li><a href="http://css-tricks.com/the-difference-between-id-and-class/">Ids vs. Classes</a></li>
-				<li><a href="http://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/">Positioning</a></li>
-				<li><a href="http://stackoverflow.com/questions/9189810/css-display-inline-vs-inline-block">Inline/Inline-Block</a></li>
-			</ul>
+			<div id ="sidebar">
+				<p>External References:</p>
+				<ul>
+					<li><a href="http://ruby-doc.org/core-2.1.2/Enumerable.html#method-i-cycle">Enumerable</a></li>
+					<li><a href="http://www.tutorialspoint.com/ruby/ruby_loops.htm">Ruby Loops</a></li>
+				</ul>
+			</div>
+			<footer>
+				<p>&copy; Bruno Macedo Pasini - 2014</p>
+			</footer>
 		</div>
-		<footer>
-			<p>&copy; Bruno Macedo Pasini - 2014</p>
-		</footer>
 	</body>
 </html>

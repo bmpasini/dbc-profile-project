@@ -62,7 +62,7 @@ Talk about what came up for you and anything you want in addition to the questio
 		float: right;
 		text-align: center;
 		margin: 30px 197px 0 15px;
-		padding: 10px;
+		padding: 30px;
 		width: 50%;
 		min-width: 451px;
 		background-color: white;
@@ -71,7 +71,7 @@ Talk about what came up for you and anything you want in addition to the questio
 		display: block;
 		opacity: 0.7;
 	}
-	#content p, #content ul, #content ol {
+	#content p, #content ul, #content ol #content h2 {
 		text-align: left;
 	}
 	#sidebar {
@@ -174,7 +174,7 @@ Talk about what came up for you and anything you want in addition to the questio
 		float: right;
 		text-align: center;
 		margin: 200px 138px 0 15px;
-		padding: 10px;
+		padding: 30px;
 		width: 50%;
 		background-color: white;
 		color: #800000;

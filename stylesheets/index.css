@@ -120,6 +120,11 @@ nav ul ul {
 #left_sidebar ul li
 {
 	text-align: left;
+	padding: 25px;
+}
+#left_sidebar h6
+{
+	text-align: left;
 }
 #text
 {

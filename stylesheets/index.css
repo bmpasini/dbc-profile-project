@@ -131,10 +131,10 @@ nav ul ul {
 	text-align: left;
 	padding-left: 20px;
 }
-#left_sidebar a:link {color: #FF00FF;} /* unvisited link */
+#left_sidebar a:link {color: #9932CC;} /* unvisited link */
 #left_sidebar a:visited {color: #00FF00;} /* visited link */
 #left_sidebar a:hover {color: #DC143C;} /* mouse over link */
-#left_sidebar a:active {color: #9932CC;} /* selected link */
+#left_sidebar a:active {color: #FF00FF;} /* selected link */
 
 #text
 {

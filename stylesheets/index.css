@@ -112,7 +112,7 @@ nav ul ul {
 	border: 1px dotted #00FF00;
 	border-radius: 10px;
 	margin: 0;
-	font-size: small;
+	font-size: 14px;
 	color: #00FF00;
 	font-weight: lighter;
 	text-align: center;
@@ -120,7 +120,7 @@ nav ul ul {
 #left_sidebar ul
 {
 	text-align: left;
-	padding-left: 25px;
+	padding-left: 30px;
 }
 #left_sidebar ul li
 {
@@ -129,6 +129,7 @@ nav ul ul {
 #left_sidebar h6
 {
 	text-align: left;
+	padding-left: 20px;
 }
 #text
 {

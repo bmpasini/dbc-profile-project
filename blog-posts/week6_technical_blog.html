@@ -5,7 +5,7 @@ What does it mean to display inline vs inline blocks? -->
 
 <html>
 	<head>
-		<title>Technical Week 6</title>
+		<title>Classes vs. Modules</title>
 		<link rel="stylesheet" type="text/css" href="stylesheets/blog_template3.css"/>
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 	</head>
@@ -22,33 +22,30 @@ What does it mean to display inline vs inline blocks? -->
 				<a href="../index.html"><p>Home</p></a>
 			</nav>
 			<div id="content">
-				<h3>What are the great things about JavaScript? Why is it so popular?</h3>
-				<ol>
-					<p>JavaScript is popular among Web Developers mainly due to 4 great features:</p>
-					<li>Browser support:</li>
-					<p>You don't have to install any plugin to access its content, as flash would for instance. All browsers have adopted JavaScript as a scripting language and they provide integrated support for it.</p>
-					<li>Can be used on client side as well as on server side:</li>
-					<p>This characteristic by itself explain why there are so many JavaScript developers.</p>
-					<li>Functional programming language:</li>
-					<p>In javascript, function could be assigned to variables just like any other data types. Not only that, but a function can accept another function as a parameter and can also return a function. You can have functions with no name as well. Clearly, this gives you the ability to code in functional programming style.</p>
-					<li>Support for objects:</li>
-					<p>Javascript is an object oriented language. However, the way javascript handles objects and inheritance is bit different from conventional object oriented programming languages like Java. Due to this, javascript supports most of the object oriented concepts while being simple to learn and use.</p>
-				</ol>
-				<h3>What are it's limitations?</h3>
+				<h1>Classes vs. Modules</h1>
+				<p>Both classes and modules are reference types that encapsulate the items defined within, but they differ in how items are accessed from other procedures.</p>
+				<h2>Class</h2>
+				<p>In object-oriented programming, a class is a construct that is used to create instances of itself – referred to as class instances, class objects, instance objects or simply objects. A class defines constituent members which enable its instances to have state and behavior.</p>
+				<h2>Module</h2>
+				<p>Modules are a way of grouping together methods, classes, and constants. Modules give you two major benefits.</p>
 				<ul>
-					<li>JavaScript cannot write to files on the server without the help of a server side script.</li>
-					<li>JavaScript cannot access databases unless you use Ajax and have a server side script perform the database accesses for you.</li>
-					<li>JavaScript cannot read from or write to files in the client.</li>
-					<li>JavaScript cannot close a window if it didn't open it.</li>
-					<li>JavaScript cannot access web pages hosted on another domain.</li>
-					<li>JavaScript cannot protect your page source or images.</li>
+					<li>Modules provide a <i>namespace</i> and prevent name clashes.</li>
+					<li>Modules implement the <i>mixin</i> facility.</li>
 				</ul>
+				<p>Modules define a namespace, a sandbox in which your methods and constants can play without having to worry about being stepped on by other methods and constants.</p>
+				<h2>Differences Between Classes and Modules</h2>
+				<p>The main difference between classes and modules is that classes can be instantiated as objects while standard modules cannot. Because there is only one copy of a standard module's data, when one part of your program changes a public variable in a standard module, any other part of the program gets the same value if it then reads that variable. In contrast, object data exists separately for each instantiated object. Another difference is that unlike standard modules, classes can implement interfaces.</p>
+				<p>Classes and modules also use different scopes for their members. Members defined within a class are scoped within a specific instance of the class and exist only for the lifetime of the object.</p>
+				<p>On the other hand, members declared within a module are publicly accessible by default, and can be accessed by any code that can access the module. This means that variables in a standard module are effectively global variables because they are visible from anywhere in your project, and they exist for the life of the program.</p>
+				<h2>Conclusion</h2>
+				<p>If you want to create an object that will be instantiated use <strong>Class</strong>. If you just want to group methods, classes and constants use <strong>Module</strong>.</p>
 			</div>
 			<div id ="sidebar">
 				<p>External References:</p>
 				<ul>
-					<li><a href="http://www.webdesign.org/web-programming/javascript/4-powerful-features-of-javascript-programming-language.17008.html">JavaScript Upsides</a></li>
-					<li><a href="http://javascript.about.com/od/reference/a/cannot.htm">JavaScript Downsides</a></li>
+					<li><a href="http://www.tutorialspoint.com/ruby/ruby_modules.htm">Ruby Modules</a></li>
+					<li><a href="http://matt.aimonetti.net/posts/2012/07/30/ruby-class-module-mixins/">Ruby Constructs</a></li>
+					<li><a href="http://msdn.microsoft.com/en-us/library/7825002w(v=vs.90).aspx">Classes vs. Modules</a></li>
 				</ul>
 			</div>
 			<footer>

@@ -68,7 +68,7 @@ Talk about what came up for you and anything you want in addition to the questio
 		color: #800000;
 		border: 1px solid #800000;
 		display: block;
-		opacity: 0.7;
+		opacity: 0.8;
 	}
 	#content p, #content ul, #content ol #content h2 {
 		text-align: left;
@@ -197,7 +197,7 @@ Talk about what came up for you and anything you want in addition to the questio
 		border: 1px solid #800000;
 		display: block;
 		background-color: white;
-		opacity: 0.7;
+		opacity: 0.8;
 	}
 	#sidebar p {
 		float: left;

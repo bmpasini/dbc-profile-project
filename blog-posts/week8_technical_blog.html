@@ -1,0 +1,54 @@
+<!-- You've had a LOT of practice with ruby classes this week, so now is the time to teach others about it! Pick something you would like to model and teach others when to use instance variables, instance methods, etc. -->
+
+<html>
+	<head>
+		<title>Technical Week 5</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/blog_template5.css"/>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+	</head>
+	<body>
+		<div id"wrapper">
+			<header>
+				<h1>Bruno Macedo Pasini</h1>
+				<h2>Technical Blog</h2>
+				<h3>Week 5</h3>
+			</header>
+			<nav>
+				<a href="week5_cultural.html"><p>Cultural</p></a>
+				<a href="week5_technical_blog.html"><p>Technical</p></a>
+				<a href="../index.html"><p>Home</p></a>
+			</nav>
+			<div id="content">
+			<h1>Classes in Ruby</h1>
+			<h2>Definition</h2>
+			<p>In object-oriented programming, a class is an extensible template for creating objects, providing initial values for state (member variables) and implementations of behavior (member functions, methods).</p>
+			<h2>Why use classes instead of just grouping whatever you want in different functions?</h2>
+			<p>I use classes primarily for the following reasons:</p>
+			<ul>
+				<li>They provide a logical connection between data and functions operating on that data.</li>
+				<li>You can make class-hierarchies which can save coding and are very extendable by using virtual functions.</li>
+				<li>You can restrict access to data, removing bug-opportunities that direct access could give.</li>
+			</ul>
+			<h2>Variables in a Ruby Class</h2>
+			<p>Ruby provides four types of variables:</p>
+			<ol>
+				<li><strong>Local Variables:</strong> Local variables are the variables that are defined in a method. Local variables are not available outside the method. Local variables begin with a lowercase letter or _.</li>
+				<li><strong>Instance Variables:</strong> Instance variables are available across methods for any particular instance or object. That means that instance variables change from object to object. Instance variables are preceded by the at sign (@) followed by the variable name.</li>
+				<li><strong>Class Variables:</strong> Class variables are available across different objects. A class variable belongs to the class and is a characteristic of a class. They are preceded by the sign @@ and are followed by the variable name.</li>
+				<li><strong>Global Variables:</strong> Class variables are not available across classes. If you want to have a single variable, which is available across classes, you need to define a global variable. The global variables are always preceded by the dollar sign ($).</li>
+			</ol>
+		</div>
+			<div id ="sidebar">
+				<p>External References:</p>
+				<ul>
+					<li><a href="http://en.wikipedia.org/wiki/Class_(computer_programming)">Classes</a></li>
+					<li><a href="http://www.tutorialspoint.com/ruby/ruby_classes.htm">Ruby Classes</a></li>
+					<li><a href="http://www.railstips.org/blog/archives/2009/05/11/class-and-instance-methods-in-ruby/">Class vs. Instance Methods</a></li>
+				</ul>
+			</div>
+			<footer>
+				<p>&copy; Bruno Macedo Pasini - 2014</p>
+			</footer>
+		</div>
+	</body>
+</html>

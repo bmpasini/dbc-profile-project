@@ -1,0 +1,229 @@
+/*Based on the video, what's your take on the DBC experience? What is your impression of DBC?
+How do you see yourself engaging with this type of culture? Have your expectations of DBC changed?
+If so, how? Are you excited to participate in this kind of learning environment?
+Does it make you nervous?
+
+Talk about what came up for you and anything you want in addition to the questions above.
+*/
+
+@media screen and (min-width: 1032px)
+{
+	body {
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 12px;
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		background-image: url("../images/beach5.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		overflow: auto;
+	}
+	#wrapper {
+		min-height:100%;
+		position:relative;
+	}
+	header {
+		position: fixed;
+		float: left;
+		color: #C00000;
+		margin-left: 15px;
+		margin-top: 0;
+		padding:10px;
+		width: 21em;
+		height: auto;
+		display: block;
+		font-weight: bold;
+	}
+	a:link {color: #00008B;} /* unvisited link */
+	a:visited {color: #DC143C;} /* visited link */
+	a:hover {color: #00FF7F;} /* mouse over link */
+	a:active {color: #9932CC;} /* selected link */
+	nav {
+		float: right;
+		margin: 11em 15em 1em 15em;
+		width: 850px;
+	}
+	nav p{
+		float: right;
+		width: 10%;
+		padding: 0.5%;
+		margin: 0% 2%;
+		text-align: center;
+		border: 1px solid #800000;
+		font-size: 12px;
+		font-weight: bold;
+		display: block;
+		background-color: white;
+		opacity: 0.7;
+	}
+	#content {
+		float: right;
+		margin: 30px 197px 0 15px;
+		padding: 30px;
+		width: 50%;
+		min-width: 451px;
+		background-color: white;
+		color: #800000;
+		border: 1px solid #800000;
+		display: block;
+		opacity: 0.7;
+	}
+	#content p, #content ul, #content ol #content h2 {
+		text-align: left;
+	}
+	#content h1 {
+		text-align: center;
+		margin: 0 0 0.67em 0;
+	}
+	#sidebar {
+		position: fixed;
+		float: left;
+		margin: 200px 1px 2px 15px;
+		width: 190px;
+		height: 100px;
+		border: 1px solid #800000;
+		display: block;
+		background-color: white;
+		opacity: 0.7;
+	}
+	#sidebar p{
+		float: left;
+		font-size: 11px;
+		margin: 12px 2.5% 2.5% 0.5%;
+	    padding-left: 20px;
+	}
+	#sidebar ul
+	{
+		float: left;
+		padding-left: 35px;
+		font-size: 11px;
+	}
+	#sidebar li
+	{
+
+	}
+	footer
+	{
+		height: 60px;
+		width: 100%;
+		text-align: center;
+		font-size: 9px;
+		color: #20B2AA;
+		clear: both;
+		display: flex; /* Displays an element as an block-level flex container. New in CSS3	*/
+		justify-content: center; /* align horizontal */
+		align-items: center; /* align vertical */
+	}
+	#image {
+		position: absolute;
+		bottom: 80px;
+		left: 520px;
+	}
+}
+@media screen and (max-width: 1032px)
+{
+	body {
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 12px;
+		height: 100%;
+		width: 75em;
+		margin: 0;
+		padding: 0;
+		background-image: url("../images/beach5.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		overflow: auto;
+	}
+	#wrapper {
+		min-height:100%;
+		position:relative;
+	}
+	header {
+		position: fixed;
+		float: left;
+		color: #800000;
+		margin-left: 15px;
+		margin-top: 0;
+		width: 21em;
+		height: auto;
+		display:block;
+		font-weight:bold;
+	}
+	a:link {color: #00008B;} /* unvisited link */
+	a:visited {color: #DC143C;} /* visited link */
+	a:hover {color: #00FF7F;} /* mouse over link */
+	a:active {color: #9932CC;} /* selected link */
+	nav {
+		float: right;
+		width: inherit;
+		margin: 11em 10em 1em 10em;
+	}
+	nav p{
+		float: right;
+		width: 10%;
+		padding: 0.5%;
+		margin: 0% 2%;
+		text-align: center;
+		border: 1px solid #800000;
+		font-size: 12px;
+		font-weight: bold;
+		display: block;
+		background-color: white;
+		opacity: 0.7;
+	}
+	#content {
+		float: right;
+		text-align: center;
+		margin: 200px 138px 0 15px;
+		padding: 30px;
+		width: 50%;
+		background-color: white;
+		color: #800000;
+		border: 1px solid #800000;
+		display: block;
+		opacity: 0.7;
+	}
+	#content p, #content ul, #content ol #content h2 {
+		text-align: left;
+	}
+	#sidebar {
+		position: fixed;
+		float: left;
+		margin: 30px 1px 2px 15px;
+		width: 190px;
+		height: 100px;
+		border: 1px solid #800000;
+		display: block;
+		background-color: white;
+		opacity: 0.7;
+	}
+	#sidebar p {
+		float: left;
+		font-size: 11px;
+		margin: 12px 2.5% 2.5% 0.5%;
+	    padding-left: 20px;
+	}
+	#sidebar ul {
+		float: left;
+		padding-left: 35px;
+		font-size: 11px;
+	}
+	footer {
+		height: 60px;
+		width: 100%;
+		text-align: center;
+		font-size: 9px;
+		color: #20B2AA;
+		clear: both;
+		display: flex; /* Displays an element as an block-level flex container. New in CSS3	*/
+		justify-content: center; /* align horizontal */
+		align-items: center; /* align vertical */
+	}
+	#image {
+		position: absolute;
+		bottom: 60px;
+		left: 520px;
+	}
+}

@@ -1,0 +1,178 @@
+html, body {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-image: url("../unit1_projects/images/awesome.jpg");
+	background-size: 100%;
+	background-attachment: fixed; /* The background is fixed with regard to the viewport */
+	overflow: auto; /* If overflow is clipped, a scroll-bar should be added to see the rest of the content */
+}
+header {
+	height: 10%;
+	width: 90%;
+	padding: 0;
+	border: 0;
+	margin: 2.5% 5%;
+	font-size: xx-large; /* percentage is in relation to the body font-size */
+	color: #00FF00;
+	font-weight:bold;
+	display: flex; /* Displays an element as an block-level flex container. New in CSS3	*/
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+nav {
+	height: 10%;
+	width: 90%;
+	margin: 0 5%;
+}
+
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+
+nav ul {
+	margin: 0;
+	background: transparent; 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border: 1px dotted #00FF00;
+	border-radius: 10px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+nav ul li {
+	float: left;
+}
+	nav ul li:hover {
+		background: #00FF00;
+	}
+		nav ul li:hover a {
+
+		}
+	.main_bar_text:hover {
+		color: black;
+	}
+	nav ul ul li:hover < .main_bar_text {
+		color: black;
+	}
+	nav ul li a {
+		display: block;
+		padding: 25px 40px;
+		color: #00FF00;
+		text-decoration: none;
+	}
+nav ul ul {
+	background: black;
+	border-radius: 0px;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+}
+	nav ul ul li {
+		float: none; 
+		border-top: 1px dotted black;
+		border-bottom: 1px dotted black;
+		position: relative;
+	}
+		nav ul ul li a {
+			padding: 15px 40px;
+			color: #00FF00;
+		}
+			nav ul ul li a:hover {
+				background: #00FF00;
+				color: black;
+			}
+#workspace
+{
+	height: 69%;
+	width: 90%;
+	padding: 0;
+	border: 0;
+	margin: 2.5% 5% 0 5%;
+	display: inline-block;
+}
+#left_sidebar
+{
+	float: left;
+	height: calc(100% - 2*1px - 2*1em); /* Defines the height in percent of the containing block	 */
+	width: calc(15%/0.9 - 2*1px - 2*1em); /* Defines the width in percent of the containing block */
+	padding: 1em;
+	border: 1px dotted #00FF00;
+	border-radius: 10px;
+	margin: 0;
+	font-size: small;
+	color: #00FF00;
+	font-weight: lighter;
+	text-align: center;
+}
+#left_sidebar ul
+{
+	text-align: left;
+	padding-left: 30px;
+}
+#left_sidebar ul li
+{
+	text-align: left;
+}
+#left_sidebar h3
+{
+	text-align: left;
+	padding-left: 20px;
+}
+#left_sidebar a:link {color: #9932CC;} /* unvisited link */
+#left_sidebar a:visited {color: #00FF00;} /* visited link */
+#left_sidebar a:hover {color: #DC143C;} /* mouse over link */
+#left_sidebar a:active {color: #FF00FF;} /* selected link */
+
+#text
+{
+	float: left;
+	font-size: 18px;
+	height: calc(100% - 2*1.5em - 2*1px);
+	width: calc(60%/0.9 - 2*1.5em - 2*1px);
+	margin: 0 calc(5%/0.9);
+	padding: 1.5em;
+	border: 1px dotted #00FF00;
+	border-radius: 10px;
+	color: #00FF00;
+	font-weight: normal;
+	text-align: center;
+}
+#text h2 {
+	text-align: center;
+}
+#text h3 {
+	text-align: left;
+}
+#text ul {
+	padding-left: 20px;
+}
+#text ul li {
+	text-align: left;
+}
+footer
+{
+	height: 10%;
+	width: 100%;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	color: #00FF00;
+	font-size: smaller;
+	font-weight: bolder;
+	display: flex; /* Displays an element as an block-level flex container. New in CSS3	*/
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}

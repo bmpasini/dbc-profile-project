@@ -1,0 +1,56 @@
+<!-- What is the difference between Margin, Border and Padding?
+What are the best practices associated with using classes vs. ids?
+What are the differences between relative, absolute, and fixed positioning?
+What does it mean to display inline vs inline blocks? -->
+
+<html>
+	<head>
+		<title>Classes vs. Modules</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/blog_template6.css"/>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+	</head>
+	<body>
+		<div id"wrapper">
+			<header>
+				<h1>Bruno Macedo Pasini</h1>
+				<h2>Technical Blog</h2>
+				<h3>Week 6</h3>
+			</header>
+			<nav>
+				<a href="week6_cultural.html"><p>Cultural</p></a>
+				<a href="week6_technical_blog.html"><p>Technical</p></a>
+				<a href="../index.html"><p>Home</p></a>
+			</nav>
+			<div id="content">
+				<h1>Classes vs. Modules</h1>
+				<p>Both classes and modules are reference types that encapsulate the items defined within, but they differ in how items are accessed from other procedures.</p>
+				<h2>Class</h2>
+				<p>In object-oriented programming, a class is a construct that is used to create instances of itself - referred to as class instances, class objects, instance objects or simply objects. A class defines constituent members which enable its instances to have state and behavior.</p>
+				<h2>Module</h2>
+				<p>Modules are a way of grouping together methods, classes, and constants. Modules give you two major benefits.</p>
+				<ul>
+					<li>Modules provide a <i>namespace</i> and prevent name clashes.</li>
+					<li>Modules implement the <i>mixin</i> facility.</li>
+				</ul>
+				<p>Modules define a namespace, a sandbox in which your methods and constants can play without having to worry about being stepped on by other methods and constants.</p>
+				<h2>Differences Between Classes and Modules</h2>
+				<p>The main difference between classes and modules is that classes can be instantiated as objects while standard modules cannot. Because there is only one copy of a standard module's data, when one part of your program changes a public variable in a standard module, any other part of the program gets the same value if it then reads that variable. In contrast, object data exists separately for each instantiated object. Another difference is that unlike standard modules, classes can implement interfaces.</p>
+				<p>Classes and modules also use different scopes for their members. Members defined within a class are scoped within a specific instance of the class and exist only for the lifetime of the object.</p>
+				<p>On the other hand, members declared within a module are publicly accessible by default, and can be accessed by any code that can access the module. This means that variables in a standard module are effectively global variables because they are visible from anywhere in your project, and they exist for the life of the program.</p>
+				<h2>Conclusion</h2>
+				<p>If you want to create an object that will be instantiated use <strong>Class</strong>. If you just want to group methods, classes and constants use <strong>Module</strong>.</p>
+			</div>
+			<div id ="sidebar">
+				<p>External References:</p>
+				<ul>
+					<li><a href="http://www.tutorialspoint.com/ruby/ruby_modules.htm">Ruby Modules</a></li>
+					<li><a href="http://matt.aimonetti.net/posts/2012/07/30/ruby-class-module-mixins/">Ruby Constructs</a></li>
+					<li><a href="http://msdn.microsoft.com/en-us/library/7825002w(v=vs.90).aspx">Classes vs. Modules</a></li>
+				</ul>
+			</div>
+			<footer>
+				<p>&copy; Bruno Macedo Pasini - 2014</p>
+			</footer>
+		</div>
+	</body>
+</html>
